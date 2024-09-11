@@ -12,6 +12,7 @@
                             <i class="fa fa-home"></i> <span>Inicio</span>
                         </a>
                     </li>
+                    <!--
                     <li class="treeview">
                         <a href="#">
                             <i class="fa fa-cogs"></i> <span>Mantenimiento</span>
@@ -39,17 +40,17 @@
                             
                         </ul>
                     </li>
-                    <li class="treeview">
-                        <a href="#">
+    -->
+                    <li class="">
+                        <a href="<?php echo base_url()?>reportes/facturacion">
                             <i class="fa fa-print"></i> <span>Reportes</span>
-                            <span class="pull-right-container">
+                            
                                 <i class="fa fa-angle-left pull-right"></i>
                             </span>
                         </a>
-                        <ul class="treeview-menu">
-                            <li><a href="<?php echo base_url()?>reportes/ventas"><i class="fa fa-circle-o"></i> Ventas</a></li>
-                        </ul>
+
                     </li>
+                    <!--
                     <li class="treeview">
                         <a href="#">
                             <i class="fa fa-user-circle-o"></i> <span>Administrador</span>
@@ -62,6 +63,7 @@
                             <li><a href="<?php echo base_url();?>administrador/permisos/"><i class="fa fa-circle-o"></i> Permisos</a></li>
                         </ul>
                     </li>
+    -->
                 </ul>
             </section>
             <!-- /.sidebar -->

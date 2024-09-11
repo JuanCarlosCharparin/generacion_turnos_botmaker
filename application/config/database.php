@@ -6,10 +6,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
     'dsn'   => '',
-    'hostname' => 'localhost',
+    'hostname' => '172.22.112.12',
     'username' => 'root',
-    'password' => '',
-    'database' => 'ventas_ci',
+    'password' => 'sisnuevo.13',
+    'database' => 'salutte2',
     'dbdriver' => 'mysqli',
     'dbprefix' => '',
     'pconnect' => FALSE,
